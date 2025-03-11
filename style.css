@@ -4,8 +4,6 @@
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
 }
-
-  
   /* Global Styles */
   body,html {
     font-family: 'Arial', sans-serif;
@@ -77,9 +75,6 @@ nav h1 {
 #nav-part2 button:nth-child(1){
     background-color: transparent;
     color: #000;
-}
-#nav-part2 button:nth-child(1):hover{
-    border: 1px solid black ;
 }
 #signIn{
     background-color: #0D0C22;
@@ -308,7 +303,6 @@ nav h1 {
     font-weight: 100;
     color: #393939;
     line-height: 3vw;
-  
   }
   .join .btns{
     gap: 1.5vw;
