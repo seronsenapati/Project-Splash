@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+#page1 {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
+}
+#nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 45px;
+}
+#nav h1 {
+    font-size: 45px;
+    font-weight: 900;
+    color: #000;
+    font-family: "Playwrite HU", cursive;
+    rotate: -3.5deg;
+    text-decoration: underline;
+}
+#nav-part1 {
+    width: 30%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav-part1 h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+
+#nav-part2 {
+    width: 30%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#nav-part2 button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #000;
+    margin: 0 10px;
+}
+#nav-part2 button:nth-child(1){
+    background-color: transparent;
+    color: #000;
+}
+
+#content {
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 50px 0;
+}
+#content h3 {
+    background-color: #f2b0ea ;
+    padding: 6px 12px;
+    width: fit-content;
+    border-radius: 50px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); 
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+#content h1 {
+    font-size: 82px;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+    font-family: "Source Serif 4", serif;
+    line-height: 1.1;
+    margin: 25px 0;
+}
+
+#content h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+}
+#content button {
+    padding: 20px 28px;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #000;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); 
+    margin: 30px 0;
+}
+#bottom{
+    height: 310px;
+    width: 100%;
+    padding: 7px;
+    white-space: nowrap;
+    overflow-x: auto;   
+    overflow-y: hidden;
+}
+#bottom::-webkit-scrollbar{
+    display: none;
+}
+.elem{
+    display: inline-block;
+    height: 100%;
+    width: 240px;
+    margin-right: 20px;
+    border-radius: 40px;
+    overflow: hidden;
+}
+.elem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.elem video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#page2{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
